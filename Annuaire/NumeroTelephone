@@ -1,0 +1,27 @@
+package fr.eni.tp.annuaire;
+
+public class NumeroTelephone {
+	int numero;
+
+	public NumeroTelephone(int numero) {
+		super();
+		this.numero = numero;
+	}
+
+	public NumeroTelephone() {
+	}
+
+	public int getNumero() {
+		return numero;
+	}
+
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+
+	@Override
+	public String toString() {
+		return "[numero=" + numero + "]";
+	}
+
+}
